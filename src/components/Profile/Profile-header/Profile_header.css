@@ -1,0 +1,19 @@
+.center__header {
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 5;
+}
+.center__header-tweets {
+  opacity:0.6
+}
+
+.center__header-back {
+  display: inline-block;
+  padding: 10px 8px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.center__header-back:hover {
+  background-color: rgba(29, 156, 240, 0.1);
+}

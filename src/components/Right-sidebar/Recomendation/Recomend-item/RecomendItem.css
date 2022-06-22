@@ -1,0 +1,16 @@
+.recomend-user-link {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.recomend-user:hover {
+  background-color: rgba(29, 156, 240, 0.1);
+}
+
+.recomend-user-name {
+  font-weight: 600;
+}
+
+.recomend-user-email {
+  opacity: 0.6;
+}

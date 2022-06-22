@@ -1,0 +1,16 @@
+.nav-item {
+  padding: 0px 10px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+.nav-item:hover {
+  background-color: rgba(29, 156, 240, 0.1);
+}
+
+.item-span {
+  font-weight: 600;
+}
+.nav-link {
+  font-weight: 600;
+}

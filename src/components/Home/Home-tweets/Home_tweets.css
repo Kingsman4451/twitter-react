@@ -1,0 +1,85 @@
+.tweet-item {
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+.tweet-item:hover {
+  background-color: rgba(29, 156, 240, 0.1);
+}
+
+.tweet-content{
+  width: 100%;
+}
+
+.tweet-user-name:hover {
+  text-decoration: underline;
+}
+
+.tweet-user-span {
+  opacity: 0.6;
+}
+
+.mini-item {
+  color: #536471;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.bi {
+  margin-right: 7px;
+  transition: all 0.3s ease;
+}
+
+.mini-item:nth-child(1):hover {
+  color: #1d9bf0;
+}
+
+.mini-item:nth-child(1):hover .bi {
+  color:#1d9bf0;
+  background-color: rgba(29, 160, 242, 0.1);
+  border-radius: 50%;
+  box-shadow: 0 0 0 8px rgba(29, 160, 242, 0.1);
+}
+
+.mini-item:nth-child(2):hover {
+  color: #0CB245;
+}
+
+.mini-item:nth-child(2):hover .bi {
+  color:#0CB245;
+  background-color: rgba(12, 178, 70, 0.1);
+  border-radius: 50%;
+  box-shadow: 0 0 0 8px rgba(12, 178, 70, 0.1);
+}
+
+.mini-item:nth-child(3):hover {
+  color: #EF1C5C;
+}
+
+.mini-item:nth-child(3):hover .bi {
+  color:#EF1C5C;
+  background-color: rgba(239, 28, 91, 0.1);
+  border-radius: 50%;
+  box-shadow: 0 0 0 8px rgba(239, 28, 91, 0.1);
+}
+
+.mini-item:nth-child(4):hover {
+  color: #1d9bf0;
+}
+
+.mini-item:nth-child(4):hover .bi {
+  color:#1d9bf0;
+  background-color: rgba(29, 160, 242, 0.1);
+  border-radius: 50%;
+  box-shadow: 0 0 0 8px rgba(29, 160, 242, 0.1);
+}
+
+.mini-item:nth-child(5):hover {
+  color: #0CB245;
+}
+
+.mini-item:nth-child(5):hover .bi {
+  color:#0CB245;
+  background-color: rgba(12, 178, 70, 0.1);
+  border-radius: 50%;
+  box-shadow: 0 0 0 8px rgba(12, 178, 70, 0.1);
+}

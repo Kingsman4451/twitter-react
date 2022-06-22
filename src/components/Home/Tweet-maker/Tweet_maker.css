@@ -1,0 +1,26 @@
+.tweet-maker-textarea {
+  resize: none;
+  height: 100px;
+  border: none;
+  outline: none;
+}
+
+.tweet-maker-textarea::placeholder {
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: 600;
+  color: #828282;
+}
+
+.bi {
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.bi:hover {
+  color: #1d9bf0;
+}
+.chart {
+  display: block;
+  transform: rotate(90deg);
+}

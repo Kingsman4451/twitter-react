@@ -1,0 +1,36 @@
+.profile-bg{
+  height: 280px;
+  background-image: url("../../../assets/img/profile-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profile-img {
+  top: 205px;
+  left: 25px;
+  z-index: 1;
+}
+
+.profile-btn {
+  align-self: flex-end;
+  line-height: 24px;
+  font-weight: 600;
+  padding: 10px 15px;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 50px;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+.profile-btn:hover{
+  background-color: rgba(29, 156, 240, 0.1);
+}
+
+.profile-username {
+  opacity: 0.6;
+}
+
+.profile-item-text{
+  opacity: 0.6;
+}

@@ -1,0 +1,27 @@
+.right-trends {
+  border-radius: 10px;
+}
+
+.trend-link {
+  transition: background-color 0.3s ease;
+}
+
+.trend-link:hover {
+  background-color: rgba(29, 156, 240, 0.1);
+}
+
+.trends-heading {
+  font-weight: 600;
+}
+
+.trends-more-link  {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.trends-more-link:hover {
+  background-color: rgba(29, 156, 240, 0.1);
+}

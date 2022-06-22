@@ -1,0 +1,6 @@
+.right-sidebar{
+  height:100%;
+  position: sticky;
+  top: 0;
+  margin-right: auto;
+}
